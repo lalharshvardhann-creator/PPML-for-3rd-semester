@@ -1,0 +1,10 @@
+#WAP to add three given list using python map and lambda.  
+x=list(eval(input("Enter the 1st list:"))) 
+y=list(eval(input("Enter the 2nd list:"))) 
+z=list(eval(input("Enter the 3rd list:"))) 
+print("Original list:") 
+print(x) 
+print(y) 
+print(z) 
+l1=list(map(lambda x,y,z:x+y+z,x,y,z)) 
+print("The resulttant list is:",l1)
